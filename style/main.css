@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* hr {
+    position: absolute;
+    width: 1274px;
+    left: 83px;
+    color: rebeccapurple;
+} */
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Red Hat Text';
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+
+    background: #2b2b2b;
+}
+
+.header__logo {
+    margin-right: 95px;
+}
+
+.header__menu {
+    display: flex;
+    margin-right: 125px;
+
+}
+
+.header__menu-item {
+    margin-right: 60px;
+
+    /* text */
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -0.07em;
+    color: #BFBFBF;
+}
+
+.header__menu-item :hover {
+    color: #F5F5F7;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__button {
+
+    /* button */
+    border: 1px solid #F5F5F7;
+    box-sizing: border-box;
+    border-radius: 46px;
+    outline: none;
+
+    /* text */
+    padding: 10px 65px;
+    background-color: transparent;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.07em;
+    color: #BFBFBF;
+}
+
+.header__button:hover{
+    background-color: #BFBFBF;
+    border: 1px solid #BFBFBF;
+    color: black;
+
+}
+
+.main {
+    padding-top: 75px;
+    text-align: center;    
+}
+
+/* .main ::after {
+    content: "";
+    position: absolute;
+    bottom: -270px;
+    height: 0;
+    background-color: wheat;
+    width: 1274px;
+    border: 1px solid #E5E5E5
+
+} */
+
+.main__title {
+    font-size: 96px;
+    line-height: 127px;
+    letter-spacing: -0.02em;
+    color: #E5E5E5;
+
+    margin-bottom: 15px;
+}
+
+.main__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__info-img {
+    margin-right: 160px;
+}
+.main__about-phone {
+    font-family: 'Roboto';
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    color: #5c97b1;
+    text-align: left;
+
+    position: relative;
+}
+
+.main__about-phone p {
+    margin-bottom: 30px;
+}
+
+
+.main__about-phone p:last-child {
+    margin-bottom: 0;
+}
+
+.main__about-phone::before {
+    content: "";
+    position: absolute;
+
+    height: 100%;
+    background-color: #5C97B1;
+    width: 2px;
+
+    top: 0;
+    left: -75px;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #a3a3a3;
+    width: 1274px;
+    left: 83px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+.footer ul {
+    margin-left: 116px;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #86B6CC;
+}
+
+.footer__elements{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #4B6571;
+}
+
+.footer__elements li:first-child {
+    color: white;
+    margin-bottom: 41px;
+}
+
+.footer__store-list {
+    margin-bottom: 50px;
+}
