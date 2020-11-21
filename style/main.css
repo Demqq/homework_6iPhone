@@ -92,17 +92,6 @@ ul {
     text-align: center;    
 }
 
-/* .main ::after {
-    content: "";
-    position: absolute;
-    bottom: -270px;
-    height: 0;
-    background-color: wheat;
-    width: 1274px;
-    border: 1px solid #E5E5E5
-
-} */
-
 .main__title {
     font-size: 96px;
     line-height: 127px;
@@ -166,30 +155,38 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+
+    font-family: 'Red Hat Text';
+    font-size: 24px;
+    line-height: 32px;
+    color: #4B6571;
 }
 
+.footer__elements {
+    margin-right: 160px;
+}
 
-.footer ul {
-    margin-left: 116px;
+.footer__elements:last-child {
+    margin-right: 0px;
 }
 
 .footer li {
     margin-bottom: 10px;
 }
+
+.footer li:last-child {
+    margin-bottom: 0px;
+}
+
+footer li:last-child {
+    margin-right: 0px;
+}
+
 .footer a {
     text-decoration: none;
 }
 .footer a:hover {
     color: #86B6CC;
-}
-
-.footer__elements{
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 32px;
-    color: #4B6571;
 }
 
 .footer__elements li:first-child {
